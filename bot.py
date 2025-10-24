@@ -1,4 +1,3 @@
-# +++ Modified By [telegram username: @Codeflix_Bots
 import asyncio
 import sys
 from datetime import datetime
@@ -9,7 +8,7 @@ from plugins import web_server
 import pyrogram.utils
 from aiohttp import web
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002903445682
 
 name = """
 Links Sharing Started
@@ -18,12 +17,12 @@ Links Sharing Started
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="Bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            name="AniLinkProvider_Robot",
+            api_hash=294890dbd5c747557ee3205daaefc922,
+            api_id=25436585,
             plugins={"root": "plugins"},
-            workers=TG_BOT_WORKERS,
-            bot_token=TG_BOT_TOKEN,
+            workers=4,
+            bot_token=7585379584:AAH9B9q6uwChcGZKP3B2XyswqHjvlCg7fUI,
         )
         self.LOGGER = LOGGER
 
