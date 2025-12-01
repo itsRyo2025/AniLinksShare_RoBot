@@ -34,7 +34,7 @@ class Bot(Client):
         # Notify owner of bot restart
         try:
             await self.send_message(
-                chat_id=OWNER_ID,
+                chat_id=7977515080,
                 text="<b><blockquote>🤖 Bot Restarted ♻️</blockquote></b>",
                 parse_mode=ParseMode.HTML
             )
