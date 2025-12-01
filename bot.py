@@ -19,7 +19,7 @@ class Bot(Client):
         super().__init__(
             name="AniLinkProvider_Robot",
             api_hash="294890dbd5c747557ee3205daaefc922",
-            api_id="25436585",
+            api_id=25436585,
             plugins={"root": "plugins"},
             workers=4,
             bot_token="7585379584:AAH9B9q6uwChcGZKP3B2XyswqHjvlCg7fUI",
